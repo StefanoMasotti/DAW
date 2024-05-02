@@ -1,0 +1,165 @@
+body{
+    position: relative;
+    background-color: #ccc;
+}
+
+/* HEADER */
+header{
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+header a:hover{
+    color: #fff;
+}
+
+nav li h2{
+    background-color: #f00;
+    padding: 0 10px;
+}
+
+nav li h2 a{
+    color: #fff;
+    font-style: italic;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+/* MAIN */
+main{
+    position: absolute;
+    background-color: #eee;
+    margin: 100px 150px 0;
+}
+
+section{
+    position: relative;
+    margin-top: 0px;
+}
+
+.news{
+    position: absolute;
+    background-color: #ddd;
+    max-width: 250px;
+}
+
+.news-item{
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.span-time{
+    display: block;
+    padding: 5px 0;
+    color: #999;
+    font-size: small;
+}
+
+main section div a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+main section div a:hover{
+    color: #29f;
+}
+
+article{
+    margin-left: 250px;
+    padding: 0 20px;
+}
+
+.text-aside{
+    position: relative;
+}
+
+.text-left{
+    position: absolute;
+    width: 400px;
+}
+
+aside{
+    margin: 0 0 0 480px;
+    border: solid #ccc 2px;
+}
+
+aside h2{
+    line-height: 10px;
+    color: #ccc;
+    font-size: small;
+    padding-left: 10px;
+}
+
+aside img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+aside ul{
+    padding-left: 5px;
+}
+
+aside ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 0 30px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    font-size:medium;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    position: absolute;
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 2500px;
+}
+
+
+.li1{
+    display:inline;
+}
+
+footer ul{
+    margin: 20px 0 20px 450px;
+
+}
+
+footer ul li{
+    list-style-type: none;
+    margin: 10px 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #999;
+}
+
+footer a:hover{
+    color:#58f
+}
+
+.div-espn-cp{
+    margin: 0 0 30px 600px;
+}
+
